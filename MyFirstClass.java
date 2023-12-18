@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -61,6 +62,8 @@ public class MyFirstClass {
     //calling another class method
     Class2 class2 = new Class2();
     String ok = Class2.itsFine;
+
+    System.out.println(LocalDate.now().toString());
 
     MyAbstract myAbstract = new MyAbstract();
 
